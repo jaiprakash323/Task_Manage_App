@@ -6,11 +6,10 @@ A simple task management app with JWT authentication, and CRUD operations.
 
 ### Backend
 1. Navigate to `backend/`.
-2. Create virtual environment and install dependencies: `pip install -r requirements.txt`.
-3. Set up PostgreSQL and update `settings.py` with database credentials.
-4. Run migrations: `python manage.py migrate`.
-5. Create superuser: `python manage.py createsuperuser`.
-6. Start server: `python manage.py runserver`.
+2. Set up PostgreSQL and update `settings.py` with database credentials.
+3. Run migrations: `python manage.py migrate`.
+4. Create superuser: `python manage.py createsuperuser`.
+5. Start server: `python manage.py runserver`.
 
 ### Frontend
 1. Navigate to `frontend/`.
