@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(188, 224, 236);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.head{
+  color: rgb(22, 108, 179);
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: max-content;
+  margin: 0 auto;
+}
+.form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 500px;
+}
+h2 {
+  text-align: center;
+  color: rgb(22, 108, 179);
+}
+.rebutton{
+  background-color: rgb(38, 143, 228);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Form{
+  text-align: left;
+  flex-direction: column;
+  width: 400px;
+}
+.cre-button{
+  background-color: rgb(38, 143, 228);
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.libtn{
+  background-color: rgb(38, 143, 228);
+  color: white;
+  padding: 5px;
+  width: 80px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.list-contain {
+  margin-top: 30px;
+}
+.list-contain ul {
+  display: flex;           
+  flex-wrap: wrap;         
+  gap: 20px;              
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list-contain li {
+  display: flex;           
+  flex-direction: column;  
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;            
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+} 
+
+.task-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;    
+  min-height: 100vh;      
+  background-color: #f5f5f5; 
+}
+.ds-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: max-content;
+  overflow: auto;
+}
+
+.ds-form input,
+.ds-form textarea {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: max-content;
+  margin: auto;
+}
+
+.ds-form label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  margin: auto;
+}
+
+.cre-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cre-button:hover {
+  background-color: #0056b3;
+}
